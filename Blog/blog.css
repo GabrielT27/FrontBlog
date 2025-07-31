@@ -1,0 +1,126 @@
+    .navbar-nav .nav-link {
+        font-size: 1.25rem;
+      }
+      .navbar-brand {
+        font-size: 2rem;
+      }
+
+       .carousel-custom {
+        max-width: 80%;
+        margin: 40px auto 0;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 16px rgba(0,0,0,0.12);
+      }
+      .carousel-inner {
+        max-height: 450px;
+      }
+      .carousel-inner img {
+        height: 450px;
+        object-fit: cover;
+        width: 100%;
+      }
+
+ 
+
+.container-paquetop {
+    position: relative;
+    display: inline-block;
+}
+
+.paquetop {
+    max-width: 500px;
+    height: 500px;
+    border: 3px solid #ff0000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+    margin-left: 30px;
+}
+
+.texto-hover {
+    position: absolute;
+    top: 80%;  /* 90% a partir do topo do container */
+    left: 0;   /* Alinhado à esquerda (sem centralização) */
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-shadow: 1px 1px 3px black;
+    pointer-events: none;
+    margin-left: 60px;  /* Margem de 5px a partir da esquerda */
+    transform: none;   /* Removido o translate (não precisa mais centralizar) */
+}
+
+.container-paquetop:hover .paquetop {
+    transform: scale(1.05);
+}
+
+.container-paquetop:hover .texto-hover {
+    opacity: 1;
+}
+
+.container-ortiztop {
+    position: relative;
+    display: inline-block;
+    top: -365px;             /* Mantém o posicionamento vertical */
+    margin-right: 100px;     /* Aumenta espaço no lado direito */
+    transform: scaleX(1.2);  /* Estica 20% horizontalmente */
+    transform-origin: left;  /* Mantém o lado esquerdo fixo */
+    overflow: visible;       /* Permite que conteúdo vaze */
+    z-index: 1;    
+     /* Garante sobreposição correta */
+}
+.ortiztop {
+    width: 100%;        /* Ocupa a largura do container */
+    max-width: 600px;   /* Mas não ultrapassa 600px */
+    height: 300px;      /* Altura fixa */
+    margin-left: 10px;  
+     border: 3px solid #000000;
+   
+}
+
+
+.container-ortiztop:hover .paquetop {
+    transform: scale(1.05);
+}
+
+.container-ortiztop:hover .texto-hover {
+    opacity: 1;
+}
+
+
+
+
+
+.hover-text {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+/* Efeitos de hover */
+.container-ortiztop:hover .ortiztop {
+    transform: scale(1.05);
+    filter: brightness(0.8);
+}
+
+.container-ortiztop:hover .hover-text {
+    opacity: 1;
+}
