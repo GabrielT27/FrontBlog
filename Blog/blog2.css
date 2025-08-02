@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@700&display=swap');
+
+.titulo {
+  font-family: 'Montserrat', sans-serif; /* Opção 1 - Forte impacto */
+  
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.text {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.1rem; /* Aumentei o tamanho */
+  line-height: 1.8; /* Mais respiração entre linhas */
+  color: #333;
+  max-width: 1000px; /* Largura máxima controlada */
+  margin: 0 auto; /* Centraliza o bloco de texto */
+  padding: 0 40px; /* Espaçamento interno nas laterais */
+  text-align: justify; /* Alinhamento justificado (opcional) */
+  word-spacing: -0.05em; /* Ajuste fino para alinhamento */
+}
+
+.paquetop {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.paquetop img{
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: block;
+  border: 3px solid #501f1f;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
