@@ -1,64 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navbar com Logo Centralizada</title>
-  <!-- Bootstrap 5 CSS -->
-   <link rel="stylesheet" href="jornal.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jornal.css">
+    <title>O Observador Digital</title>
+       
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-black">
-    <div class="container-fluid">
-      <!-- Logo centralizada -->
-      <div class="d-flex justify-content-center w-100">
-        <a class="navbar-brand py-0">
-          <img 
-            src="modelo-de-logotipo-cn-profissional-criativo.png" 
-            alt="Logo" 
-            width="90" 
-            height="80"
-          
-          >
-        </a>
-      </div>
+    <div class="container">
+        <header>
+            <div class="data">Sexta-feira, 8 de agosto de 2025 | Ano 1, Edição 15</div>
+            <h1 class="titulo-jornal">O Observador Digital</h1>
+            <p class="slogan">A verdade em primeira mão</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#">Cultura</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Opinião</a></li>
+            </ul>
+        </nav>
+        
+        <section class="destaque">
+            <article class="manchete">
+                <img src="https://source.unsplash.com/random/800x400/?city" alt="Manchete principal">
+                <div class="manchete-texto">
+                    <h2>Prefeitura anuncia construção de novo parque na região central</h2>
+                    <p>O projeto de R$ 12 milhões deve beneficiar mais de 50 mil moradores e inclui áreas de lazer, ciclovia e espaço cultural.</p>
+                </div>
+            </article>
+            
+            <div class="secundarias">
+                <article class="noticia-secundaria">
+                    <img src="https://source.unsplash.com/random/400x200/?meeting" alt="Notícia secundária">
+                    <h3>Câmara aprova novo plano de educação para o município</h3>
+                    <p>O projeto prevê investimentos em infraestrutura escolar e capacitação de professores.</p>
+                </article>
+                
+                <article class="noticia-secundaria">
+                    <img src="https://source.unsplash.com/random/400x200/?festival" alt="Notícia secundária">
+                    <h3>Festival de inverno atrai mais de 20 mil pessoas no primeiro dia</h3>
+                    <p>Evento cultural continua até domingo com shows gratuitos e oficinas artísticas.</p>
+                </article>
+            </div>
+        </section>
+        
+        <section class="secoes">
+            <div class="secao">
+                <h2>Política</h2>
+                <article class="noticia">
+                    <h3>Vereadores debatem aumento salarial para servidores</h3>
+                    <p>A proposta de reajuste de 8,5% divide opiniões na câmara municipal.</p>
+                </article>
+                <article class="noticia">
+                    <h3>Prefeito viaja para capital em busca de verbas federais</h3>
+                    <p>A agenda inclui reuniões com três ministros e o presidente da república.</p>
+                </article>
+            </div>
+            
+            <div class="secao">
+                <h2>Economia</h2>
+                <article class="noticia">
+                    <h3>Comércio local registra crescimento de 12% no semestre</h3>
+                    <p>Setor de serviços foi o que mais se destacou, segundo dados do sindicato.</p>
+                </article>
+                <article class="noticia">
+                    <h3>Novo shopping center deve gerar 800 empregos diretos</h3>
+                    <p>Obra deve ser concluída até o final do próximo ano, afirma empreiteira.</p>
+                </article>
+            </div>
+            
+            <div class="secao">
+                <h2>Cultura</h2>
+                <article class="noticia">
+                    <h3>Exposição traz obras inéditas de artista local</h3>
+                    <p>Mostra no Museu Municipal fica em cartaz até 30 de setembro com entrada franca.</p>
+                </article>
+                <article class="noticia">
+                    <h3>Biblioteca pública lança clube de leitura mensal</h3>
+                    <p>Primeiro encontro discute clássico da literatura brasileira no próximo sábado.</p>
+                </article>
+            </div>
+        </section>
     </div>
-  </nav>
-
-  <br>
-  
-
-  <h1 class="titulo">Giro em Brasilia</h1>
-
-  <div class="container-noticia1">
-  <a href="blog2.html" style="text-decoration: none; color: inherit;">
-    <img src="c3309080-240f-4b97-a5c6-772937171bcd.jpg" alt="noticia1" class="noticia1">
-    <div class="texto-hover">PAQUETA É ABSOLVIDO DAS ACUSAÇÕES ENVOLVENDO APOSTAS!</div>
-  </a>
-</div>
-
-<div class="container-ortiztop">
-    <img src="4_09_2024 - 20h CORINTHIANS X SEM MUNDIAL.jpg" alt="Imagem Ortiz" class="ortiztop">
-    <div class="hover-text">CORINTHIANS SAI EM VANTAGEM NA COPA DO BRASIL!</div>
-</div>
-
-  <div class="container-ultimo">
-      <img src="torcida do Corinthians!!.jpg" alt="Imagem Ortiz" class="ultimotop">
-      <div class="hover-textu">Se postar é torcer, a Fiel foi campeã: Os melhores memes do dia</div>
-  </div>
-
-<div data-aos="fade-down" data-aos-duration="500">
-  <div class="tabela" style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-    <h1 style="margin: 0;">TABELA BRASILEIRÃO SERIE A</h1> 
-    <a href="https://ge.globo.com/">
-      <img src="tabela.png">
-    </a>
-  </div>
-</div>
-
-  <!-- Bootstrap 5 JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <footer>
+        <div class="contato">
+            <p>Redação: redacao@observadordigital.com.br | (11) 1234-5678</p>
+            <p>Anuncie: comercial@observadordigital.com.br</p>
+        </div>
+        <div class="copyright">
+            <p>© 2025 O Observador Digital - Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
