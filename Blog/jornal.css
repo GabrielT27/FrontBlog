@@ -38,7 +38,7 @@
             font-family: 'Times New Roman', serif;
             font-size: 72px;
             font-weight: bold;
-            color: #8B0000;
+            color: #000000;
             margin: 10px 0;
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -90,6 +90,7 @@
         
         .manchete {
             position: relative;
+            margin-top: 70px;
         }
         
         .manchete img {
