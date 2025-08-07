@@ -1,0 +1,49 @@
+.titulo {
+    font-family: 'Playfair Display', serif;
+  font-size: 3rem; /* Tamanho aumentado (ajuste conforme necessário) */
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 20px 0; /* Adicionei margem para melhor espaçamento */
+
+}
+
+.container-noticia1 {
+    position: relative;
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.noticia1 {
+    max-width: 500px;
+    height: 500px;
+    border: 3px solid #ff0000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+    margin-left: 30px;
+}
+
+.texto-hover {
+    position: absolute;
+    top: 80%;  /* 90% a partir do topo do container */
+    left: 0;   /* Alinhado à esquerda (sem centralização) */
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-shadow: 1px 1px 3px black;
+    pointer-events: none;
+    margin-left: 60px;  /* Margem de 5px a partir da esquerda */
+    transform: none;   /* Removido o translate (não precisa mais centralizar) */
+}
+
+.container-noticia1:hover .noticia1 {
+    transform: scale(1.05);
+}
+
+.container-noticia1:hover .texto-hover {
+    opacity: 1;
+}
